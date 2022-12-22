@@ -1,0 +1,89 @@
+.bikes-bookings-container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+
+  .bike-card-container {
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-radius: 0;
+    min-height: 20rem !important;
+  }
+  .bike-card-section {
+    margin: 1rem;
+  }
+
+  .user-bookings-section {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .bookings-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bookings-container p {
+    margin: 0.3rem;
+  }
+  .bike-image {
+    max-width: 30rem;
+  }
+
+  .bike-bookings-section {
+    margin-top: 1rem;
+    width: 500px;
+  }
+
+  .username-contianer h4 {
+    margin-top: 0.2rem;
+  }
+}
+
+.user-and-bookings {
+  #header-username-users-bookings {
+    display: none;
+  }
+
+  #user-fullname,
+  #user-username {
+    font-weight: bold;
+  }
+
+  .bike-card-container {
+    width: 650px;
+    max-height: 100px !important;
+  }
+
+  .bike-details {
+    justify-content: start;
+    text-align: left;
+  }
+
+  .bike-details div {
+    margin-bottom: 0.5rem;
+  }
+
+  .user-details-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+
+  .user-details-section div {
+    text-align: left;
+    margin: 0 auto;
+  }
+
+  .controlsContianer {
+    display: none;
+  }
+}
+
+.users-and-bookings-container {
+  .users-and-rentals-hr {
+    width: 90%;
+  }
+}

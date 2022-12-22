@@ -1,0 +1,22 @@
+#bike-form {
+  label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin-top: 1rem;
+    margin-right: 0.3rem;
+  }
+
+  #bike-availability {
+    text-align: left;
+    margin-left: 17.9rem;
+  }
+  .form-input-container {
+    margin: 1rem auto auto 2rem;
+    text-align: left;
+  }
+  button {
+    display: block;
+    left: 14rem;
+  }
+}

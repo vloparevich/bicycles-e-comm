@@ -1,0 +1,26 @@
+.rating-container {
+  width: 14rem;
+  display: flex;
+  flex-direction: row;
+
+  .input-rating {
+    text-align: center;
+    border: 3px solid;
+    height: 2rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-color: #9c27b0;
+    width: 5.2rem;
+    padding-left: 15px;
+  }
+
+  .rate-bike-button {
+    box-shadow: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .diabled-input {
+    display: none;
+  }
+}

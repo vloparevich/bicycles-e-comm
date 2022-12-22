@@ -1,0 +1,31 @@
+.filter-input-wrapper {
+  margin: 0 auto;
+  width: 45%;
+  min-height: 5.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  select {
+    margin-right: 0;
+    height: 1.22rem;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    height: 2.5rem;
+  }
+
+  input {
+    padding-top: 2px;
+    width: 75%;
+    border-width: 1px;
+    border-top-color: inherit;
+    border-top-width: 1.1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 1rem;
+    margin-left: 0;
+    height: 2.5rem;
+  }
+}

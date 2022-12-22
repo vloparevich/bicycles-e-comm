@@ -1,0 +1,12 @@
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    color: rgb(155, 146, 146) !important;
+  }
+
+  div {
+    margin-top: 1rem;
+  }
+}

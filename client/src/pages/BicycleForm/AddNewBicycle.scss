@@ -1,0 +1,22 @@
+#bicycle-form-container {
+  form {
+    text-align: left;
+    margin-left: 35%;
+  }
+  label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+  }
+
+  .formSubmitButtonContainer {
+    margin: 2rem;
+    margin-left: 10rem;
+  }
+
+  button {
+    margin-left: 10rem;
+  }
+}

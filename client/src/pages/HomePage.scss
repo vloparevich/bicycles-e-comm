@@ -1,0 +1,20 @@
+#bikes {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  .bike-container {
+    margin: 1rem;
+  }
+
+  .bike-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+  }
+
+  .reserve-button {
+    width: 60%;
+    margin-left: 4rem;
+  }
+}

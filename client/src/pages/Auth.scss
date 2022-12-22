@@ -1,0 +1,160 @@
+h1 {
+  color: #f0f4f8;
+}
+
+h2 {
+  color: #f0f4f8;
+}
+
+.auth-container {
+  border-radius: 0.5rem;
+  border-color: #627d98;
+  border-style: solid;
+  border-width: 0.01rem;
+  border-top: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  max-width: 35rem;
+  margin: 5rem auto 2rem auto;
+  height: 1140%;
+
+  .auth-top-bar {
+    color: #102a43;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 7px;
+  }
+
+  #active-renter-signup-toggle {
+    background-color: #36b37e;
+    font-weight: bold;
+    color: #f0f4f8;
+    align-items: left;
+    align-content: left;
+    text-decoration: none;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    padding: 1rem;
+    font-size: large;
+    width: 50%;
+  }
+
+  #inactive-renter-signup-toggle {
+    background-color: #627d98;
+    align-items: left;
+    align-content: left;
+    text-decoration: none;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    padding: 1rem;
+    font-size: large;
+    width: 50%;
+  }
+
+  #active-admin-signup-toggle {
+    background-color: #36b37e;
+    font-weight: bold;
+    color: #f0f4f8;
+    align-items: right;
+    align-content: right;
+    text-decoration: none;
+    border-top-right-radius: 0.5rem;
+
+    padding: 1rem;
+    font-size: large;
+    width: 50%;
+  }
+
+  #inactive-admin-signup-toggle {
+    background-color: #627d98;
+    align-items: right;
+    align-content: right;
+    text-decoration: none;
+    border-top-right-radius: 0.5rem;
+    padding: 1rem;
+    font-size: large;
+    width: 50%;
+  }
+
+  .auth-form-container {
+    color: #627d98;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    max-width: 35rem;
+    margin: 3rem auto;
+    align-items: center;
+    padding: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .auth-form-container label {
+    margin-top: 2rem;
+    font-family: monospace;
+    font-size: large;
+    color: #627d98;
+  }
+
+  .auth-form-container h3 {
+    margin: 0.2rem;
+  }
+
+  .auth-button {
+    background-color: #36b37e;
+    color: #f0f4f8;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    width: 85%;
+    align-items: center;
+    padding: 1rem 1rem;
+    margin: 1rem 4rem;
+    font-size: large;
+  }
+
+  .invalidCredentials {
+    color: #dc143c;
+  }
+
+  .authCreateAccountContainer {
+    background-color: #6287f9;
+
+    max-width: 35rem;
+    margin: 0 auto 2rem auto;
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+
+  label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin-top: 1rem;
+    margin-right: 0.3rem;
+  }
+
+  .formSubmitButtonContainer {
+    margin: 1rem;
+  }
+  #yesNoButtons {
+    margin: 0 auto;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #tokenGeneratedHeader {
+    color: #eb5772;
+  }
+
+  #input-error-message {
+    font-weight: bold;
+    color: #dc143c;
+  }
+}

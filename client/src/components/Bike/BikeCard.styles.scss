@@ -1,0 +1,51 @@
+.bike-card-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 0.8rem;
+  justify-content: center;
+  min-height: 18.5rem;
+  max-height: 31rem;
+
+  .bike-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 1rem;
+    width: 14rem;
+    text-align: left;
+  }
+
+  .calendar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    width: 17rem;
+    padding: 0.3rem 0.3rem 0.3rem 0;
+  }
+
+  .rmdp-wrapper.rmdp-shadow {
+    margin-top: 0.4rem !important;
+    margin-bottom: 0.4rem !important;
+  }
+
+  .bike-image {
+    width: 60%;
+  }
+  .bike-image img {
+    max-width: 90%;
+    border-radius: 5px;
+    max-height: 100%;
+  }
+
+  .controlsContianer .controls-container-buttons {
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .controls-container-buttons button {
+    margin: 0 0 0.4rem 0;
+  }
+}

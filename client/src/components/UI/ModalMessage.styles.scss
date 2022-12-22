@@ -1,0 +1,30 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: rgb(241, 244, 245);
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.modal {
+  animation: slide-down 300ms ease-out forwards;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  position: fixed;
+  margin: 0 auto;
+  top: 20vh;
+  left: 8%;
+  width: 80%;
+  background-color: #3682c9;
+  z-index: 30;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0 !important;
+}
